@@ -1,8 +1,8 @@
-echo "Attempting to run ProblemC.java"
+echo "Attempting to run ProblemD.java"
 echo "Removing old compilations"
 rm *.class
 echo "Compiling..."
 javac *.java
 echo "Running:"
-java ProblemC
+java ProblemD
 pause
