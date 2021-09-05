@@ -6,7 +6,7 @@ fn main() {
         println!("{}", " ".repeat((periods - top - 1)  / 2) + ".".repeat(top + 1).as_str());
     }
 
-    for bottom in (points..periods - 2).step_by(2).rev() {
+    for bottom in (points..periods - 1).step_by(2).rev() {
         println!("{}", " ".repeat((periods - bottom) / 2) + ".".repeat(bottom).as_str());
     }
 
